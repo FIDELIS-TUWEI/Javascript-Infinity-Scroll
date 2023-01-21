@@ -26,8 +26,8 @@ let photoArray = [];
 const count = 30;
 
 // Never share your API key, but its free and public
-const apiKey = 'jFgS8tteGD425f4oZfygQVaVnD6gt6GucN2yyz3xFek';
-const apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}`;
+const key = "dtkyZAV5zRvH10hIQ0tZ89CEuQeXWfFaQpLXEkEUYko";
+const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${key}&count=${count}`;
 
 // Function for images loaded
 
